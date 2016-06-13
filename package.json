@@ -1,0 +1,15 @@
+{
+  "name": "lagfolk-test",
+  "version": "0.0.1",
+  "repository": "https://github.com/vergissberlin/lagfolk-test.git",
+  "license": "MIT",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt": "1.0.1",
+    "grunt-casper": "^0.4.2",
+    "grunt-contrib-jshint": "1.0.0",
+    "jshint-stylish": "^2.2.0"
+  }
+}
