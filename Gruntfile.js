@@ -1,4 +1,7 @@
 'use strict';
+
+var engine = grunt.option('engine') || 'slimerjs';
+
 module.exports = function(grunt) {
 	grunt.initConfig({
 		jshint: {
@@ -21,7 +24,7 @@ module.exports = function(grunt) {
 				'log-level' : 'warning',
 				'fail-fast' : true,
 				concise : true,
-				engine : 'slimerjs'
+				engine : engine
 			},
 
 			test : {
