@@ -1,7 +1,5 @@
 'use strict';
 
-process.env.PHANTOMJS_EXECUTABLE = '/usr/local/phantomjs/bin/phantomjs';
-
 module.exports = function (grunt) {
     grunt.initConfig({
         jshint: {
