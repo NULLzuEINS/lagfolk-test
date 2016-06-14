@@ -2,6 +2,8 @@ language: node_js
 
 node_js:
    - 0.10
+env:
+  - PHANTOMJS_EXECUTABLE=/usr/local/phantomjs/bin/phantomjs
 
 addons:
   firefox: latest
