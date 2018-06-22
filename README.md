@@ -1,5 +1,7 @@
 # LAGFolk acceptance tests
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/vergissberlin/lagfolk-test.svg)](https://greenkeeper.io/)
+
 [![Build Status][travis-image]][travis-url] [![Coverage Status][coveralls-image]][coveralls-url] [![Built with Grunt][grunt-image]][grunt-url]
 
 [travis-url]: https://travis-ci.org/vergissberlin/lagfolk-test
